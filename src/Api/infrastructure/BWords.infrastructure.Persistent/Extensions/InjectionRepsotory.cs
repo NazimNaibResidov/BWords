@@ -8,16 +8,16 @@ namespace BWords.infrastructure.Persistent.Extensions
     {
         public static IServiceCollection AddRepstoryRegistertion(this IServiceCollection services)
         {
-            services.AddScoped(typeof(IGenericRepstory<>),typeof(GenericRepstory<>));
-            services.AddScoped<IUserRepstory, UserRepstory>();
-            services.AddScoped<IEmailConfigurationRepstory, EmailConfigurationRepstory>();
-            services.AddScoped<IEntryCommentFovoriteRepstory, EntryCommentFovoriteRepstory>();
-            services.AddScoped<IEntryCommentRepstory, EntryCommentRepstory>();
-            services.AddScoped<IEntryCommentVoteRepstory, EntryCommentVoteRepstory>();
-            services.AddScoped<IEntryFovoriteRepstory, EntryFovoriteRepstory>();
-            services.AddScoped<IEntryRepstory, EntryRepstory>();
-            services.AddScoped<IEntryVoteRepstory, EntryVoteRepstory>();
-            services.AddScoped<IUserRepstory, UserRepstory>();
+           // services.AddTransient(typeof(IGenericRepstory<>),typeof(GenericRepstory<>));
+            services.AddTransient<IUserRepstory, UserRepstory>();
+            services.AddTransient<IEmailConfigurationRepstory, EmailConfigurationRepstory>();
+            services.AddTransient<IEntryCommentFovoriteRepstory, EntryCommentFovoriteRepstory>();
+            services.AddTransient<IEntryCommentRepstory, EntryCommentRepstory>();
+            services.AddTransient<IEntryCommentVoteRepstory, EntryCommentVoteRepstory>();
+            services.AddTransient<IEntryFovoriteRepstory, EntryFovoriteRepstory>();
+            services.AddTransient<IEntryRepstory, EntryRepstory>();
+            services.AddTransient<IEntryVoteRepstory, EntryVoteRepstory>();
+            services.AddTransient<IUserRepstory, UserRepstory>();
             return services;
 
         }

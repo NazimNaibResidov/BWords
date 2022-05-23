@@ -12,19 +12,28 @@ namespace BWords.infrastructure.Persistent.Extensions
 {
     public static class Registertion
     {
-        public static IServiceCollection AddInfrastructureRegistertion(this IServiceCollection services,IConfiguration configuration)
+        public  static  IServiceCollection AddInfrastructureRegistertion(this IServiceCollection services,IConfiguration configuration)
         {
-            services.AddDbContext<BWordsContext>(conf =>
-            {
-                conf.UseSqlServer(configuration.GetConnectionString("BWords"), coig =>
-                {
-                    coig.EnableRetryOnFailure();
-                });
-            });
-            //var seedData = new SeedData();
-            //seedData.SeedAsync(configuration);
-            return services.AddRepstoryRegistertion();
+            var connectionString = configuration.GetConnectionString("BWords");
+            //var connection = configuration.GetConnectionString("b2bslesConnectionString");
+            services.AddDbContext<BWordsContext>(options => options.UseSqlServer
+            (connectionString)
+            .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking),
+            ServiceLifetime.Transient
+            );
+            //services.AddDbContext<BWordsContext>(options =>
+            //{
+            //    options.UseSqlServer(connectionString, coig =>
+            //    {
+            //        coig.EnableRetryOnFailure();
+            //    });
+            //});
+            var seedData = new SeedData();
+           //  seedData.SeedAsync(configuration).GetAwaiter().GetResult();
+          //  services.AddScoped<BWordsContext>(sp => sp.GetRequiredService<BWordsContext>());
             return services;
+           
+           
         }
     }
 }

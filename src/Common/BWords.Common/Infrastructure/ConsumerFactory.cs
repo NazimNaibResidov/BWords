@@ -9,14 +9,12 @@ using System.Threading.Tasks;
 
 namespace BWords.Common.Infrastructure
 {
-    public class ConsumerFactory
-    {
-    }
+   
     public static class QueueFactory
     {
         public static void SendMessageToExchange(string exchangeName,string exchangeType,string queueName,object obj)
         {
-            var channel = CreateBasicCounsumoer()
+            var channel = CreateBasicConsumer()
                    .EnsureExchange(exchangeName, exchangeType)
                    .EnsureQueue(queueName, exchangeName)
                    .Model;
@@ -24,7 +22,7 @@ namespace BWords.Common.Infrastructure
              channel.BasicPublish(exchangeName,queueName,null, _body);
 
         }
-        public static EventingBasicConsumer CreateBasicCounsumoer()
+        public static EventingBasicConsumer CreateBasicConsumer()
         {
             var factory = new ConnectionFactory() { HostName = WordConstants.RabbitMQHost };
             var connect = factory.CreateConnection();

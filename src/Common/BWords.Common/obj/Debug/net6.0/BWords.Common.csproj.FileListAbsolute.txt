@@ -1,0 +1,12 @@
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\bin\Debug\net6.0\BWords.Common.deps.json
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\bin\Debug\net6.0\BWords.Common.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\bin\Debug\net6.0\BWords.Common.pdb
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\obj\Debug\net6.0\BWords.Common.csproj.AssemblyReference.cache
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\obj\Debug\net6.0\BWords.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\obj\Debug\net6.0\BWords.Common.AssemblyInfoInputs.cache
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\obj\Debug\net6.0\BWords.Common.AssemblyInfo.cs
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\obj\Debug\net6.0\BWords.Common.csproj.CoreCompileInputs.cache
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\obj\Debug\net6.0\BWords.Common.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\obj\Debug\net6.0\refint\BWords.Common.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\obj\Debug\net6.0\BWords.Common.pdb
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Common\BWords.Common\obj\Debug\net6.0\ref\BWords.Common.dll

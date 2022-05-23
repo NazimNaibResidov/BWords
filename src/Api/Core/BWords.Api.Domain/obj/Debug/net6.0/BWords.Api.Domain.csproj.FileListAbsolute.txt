@@ -1,0 +1,15 @@
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\BWords.Api.Domain.csproj.AssemblyReference.cache
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\BWords.Api.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\BWords.Api.Domain.AssemblyInfoInputs.cache
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\BWords.Api.Domain.AssemblyInfo.cs
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\BWords.Api.Domain.csproj.CoreCompileInputs.cache
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\bin\Debug\net6.0\BWords.Api.Domain.deps.json
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\bin\Debug\net6.0\BWords.Api.Domain.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\bin\Debug\net6.0\BWords.Api.Domain.pdb
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\bin\Debug\net6.0\BWords.Common.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\bin\Debug\net6.0\BWords.Common.pdb
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\BWords.Api.Domain.csproj.CopyComplete
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\BWords.Api.Domain.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\refint\BWords.Api.Domain.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\BWords.Api.Domain.pdb
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Domain\obj\Debug\net6.0\ref\BWords.Api.Domain.dll

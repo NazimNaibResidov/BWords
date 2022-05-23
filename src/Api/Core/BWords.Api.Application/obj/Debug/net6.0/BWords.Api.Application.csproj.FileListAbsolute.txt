@@ -1,0 +1,17 @@
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\BWords.Api.Application.csproj.AssemblyReference.cache
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\BWords.Api.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\BWords.Api.Application.AssemblyInfoInputs.cache
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\BWords.Api.Application.AssemblyInfo.cs
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\BWords.Api.Application.csproj.CoreCompileInputs.cache
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\bin\Debug\net6.0\BWords.Api.Application.deps.json
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\bin\Debug\net6.0\BWords.Api.Application.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\bin\Debug\net6.0\BWords.Api.Application.pdb
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\bin\Debug\net6.0\BWords.Api.Domain.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\bin\Debug\net6.0\BWords.Common.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\bin\Debug\net6.0\BWords.Common.pdb
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\bin\Debug\net6.0\BWords.Api.Domain.pdb
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\BWords.Api.Application.csproj.CopyComplete
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\BWords.Api.Application.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\refint\BWords.Api.Application.dll
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\BWords.Api.Application.pdb
+C:\Users\resid\source\repos\NazimNaibResidov\BWords\src\Api\Core\BWords.Api.Application\obj\Debug\net6.0\ref\BWords.Api.Application.dll

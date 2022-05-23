@@ -32,7 +32,7 @@ namespace BWords.Api.Application.Interfaces.Repostoryes
 
         bool AddOrUpdate(T entity);
         Task<bool> AddOrUpdateAsync(T entity);
-
+        IEnumerable<T> Get();
         IQueryable<T> AsQueryable();
 
         Task<List<T>> GetAll(bool noTracking = true);

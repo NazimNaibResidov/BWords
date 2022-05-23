@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Api",
+    "\\Api\\Core",
+    "\\Api\\Core\\BWords.Api.Application\\Features",
+    "\\Api\\Core\\BWords.Api.Application\\Features\\Commands",
+    "\\Api\\Core\\BWords.Api.Application\\Features\\Commands\\User",
+    "\\Api\\Core\\BWords.Api.Application\\Features\\Commands\\User\\Updates",
+    "\\Api\\WebApi",
+    "\\Api\\WebApi\\BWords.Api.WebApi"
+  ],
+  "SelectedNode": "\\Api\\WebApi\\BWords.Api.WebApi\\BWords.Api.WebApi.csproj",
+  "PreviewInSolutionExplorer": false
+}

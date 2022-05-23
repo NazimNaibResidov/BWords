@@ -3,10 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
+<ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="FluentValidation" Version="11.0.1" />
@@ -14,15 +13,17 @@
     <PackageReference Include="MediatR" Version="10.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\BWords.Api.Domain\BWords.Api.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Features\Quiers\" />
-  </ItemGroup>
+<ItemGroup>
+  <ProjectReference Include="..\..\..\Common\BWords.Common\BWords.Common.csproj" />
+  <ProjectReference Include="..\BWords.Api.Domain\BWords.Api.Domain.csproj" />
+</ItemGroup>
+<ItemGroup>
+  <Folder Include="Features\Commands\Entry\DeleteFav\" />
+  <Folder Include="Features\Commands\Entry\DeleteVote\" />
+</ItemGroup>
+ 
 
 </Project>

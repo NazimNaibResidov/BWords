@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "H7F+gU90fcWME4MjXu0+2GiOo6IrbqK2Vhztdnv8tb8tCp9avahpcutYWQvtxlXICTN2tJ9+KbcqOrHXxOIoJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\resid\\source\\repos\\NazimNaibResidov\\BWords\\src\\Api\\Core\\BWords.Api.Domain\\BWords.Api.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\resid\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\resid\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\resid\\.nuget\\packages\\rabbitmq.client\\6.3.0\\rabbitmq.client.6.3.0.nupkg.sha512",
+    "C:\\Users\\resid\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\resid\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -13,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructureRegistertion(builder.Configuration);
 builder.Services.AddApplicationRegistertion();
+builder.Services.AddRepstoryRegistertion();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

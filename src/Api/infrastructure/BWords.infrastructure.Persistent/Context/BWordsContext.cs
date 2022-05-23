@@ -16,20 +16,20 @@ namespace BWords.infrastructure.Persistent.Context
         {
 
         }
-        public BWordsContext()
-        {
+        //public BWordsContext()
+        //{
 
-        }
+        //}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var conn = "server=.;Initial catalog=BWordBD;Integrated security=true";
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer(conn, ops =>
-                {
-                    ops.EnableRetryOnFailure();
-                });
-            }
+            //var conn = "server=.;Initial catalog=BWordBD;Integrated security=true";
+            //if (!optionsBuilder.IsConfigured)
+            //{
+            //    optionsBuilder.UseSqlServer(conn, ops =>
+            //    {
+            //        ops.EnableRetryOnFailure();
+            //    });
+            //}
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

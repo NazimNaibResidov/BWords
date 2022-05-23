@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hYIKzqR+4INomTuapYbVgYhAm/bc7IQvFH/CyPzbRIU=",
+  "Source": "BWords.Api.WebApi",
+  "BasePath": "_content/BWords.Api.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

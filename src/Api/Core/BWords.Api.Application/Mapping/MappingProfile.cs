@@ -21,6 +21,10 @@ namespace BWords.Api.Application.Mapping
                 .ReverseMap();
             CreateMap<UpdateUserCommand, User>()
                 .ReverseMap();
+            CreateMap<Entiry, GetEntryViewModel>()
+                .ForMember(x => x.CommentCount, y => y.MapFrom(z => z.EntryComments.Count));
+            CreateMap<CreateEntryCommentCommand, EntryComment>
+                ().ReverseMap();
         }
     }
 }

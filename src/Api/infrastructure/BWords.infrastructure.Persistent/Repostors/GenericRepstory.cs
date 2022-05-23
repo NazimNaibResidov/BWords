@@ -14,13 +14,19 @@ namespace BWords.infrastructure.Persistent.Repostors
     public class GenericRepstory<T> : IGenericRepstory<T> where T : BaseEntity
     {
         private readonly DbContext _Dbcontext;
-        protected DbSet<T> entity => _Dbcontext.Set<T>();
+        private DbSet<T> entity;
         public GenericRepstory(DbContext Dbcontext)
         {
-            this._Dbcontext = Dbcontext ?? throw new ArgumentNullException(nameof(Dbcontext));
+            this._Dbcontext = Dbcontext;
+            //?? throw new ArgumentNullException(nameof(Dbcontext));
+            entity = _Dbcontext.Set<T>();
         }
 
-        public virtual IQueryable<T> AsQueryable() => entity.AsQueryable();
+        public virtual IQueryable<T> AsQueryable()
+        {
+            var data = entity;
+            return entity.AsQueryable();
+        }
        
 
         #region :ADDED::
@@ -141,6 +147,11 @@ namespace BWords.infrastructure.Persistent.Repostors
             if (noTracking)
                 query = query.AsNoTracking();
             return query;
+        }
+        public virtual IEnumerable<T> Get()
+        {
+            var reuslt= _Dbcontext.Set<T>().ToList();
+            return reuslt;
         }
         public virtual async Task<List<T>> GetList(Expression<Func<T, bool>> peridicate, bool noTracking = true, IOrderedQueryable<T> order = null, params Expression<Func<T, object>>[] includes)
         {
